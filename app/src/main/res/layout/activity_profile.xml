@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Mahasiswa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="#12A287"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: "
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/npm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NPM: "
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOBILE COMPUTING"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
